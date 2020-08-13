@@ -10,9 +10,9 @@ namespace ConsoleOauthApp
     {
         static void Main()
         {
-            Uri authorizationServerTokenIssuerUri = new Uri("http://conta.dev.chequeespecial.container.btgpactual.net/");
-            string clientId = "overdraft";
-            string clientSecret = "overdraft";
+            Uri authorizationServerTokenIssuerUri = new Uri("http://localhost/");
+            string clientId = "client-id";
+            string clientSecret = "client-secret";
             const string scope = "scope.readaccess";
 
             //access token request
